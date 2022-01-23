@@ -50,12 +50,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Tabs\Epona.xaml.cs">
-	    <DependentUpon>Epona.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="AppShell.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

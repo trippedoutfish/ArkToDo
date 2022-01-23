@@ -8,7 +8,7 @@
               Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
 
             <Label 
-                Text="Hello, World, testasdsdasd!"
+                Text="Hello, World, ez first push!"
                 Grid.Row="0"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"

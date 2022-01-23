@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArkToDoMaui.Epona"
+             Title="Epona"
+             BackgroundColor="LightGrey">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button 
+                Text="Gunlancer"
+                FontAttributes="Bold"
+                Grid.Row="3"
+                SemanticProperties.Hint="Add tracker for this class"
+                HorizontalOptions="Center" 
+                Clicked="Add_Epona_Tracker"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
